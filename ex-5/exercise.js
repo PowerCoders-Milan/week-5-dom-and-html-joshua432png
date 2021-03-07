@@ -23,4 +23,11 @@ books.forEach(function(item){
     titleTag.style.backgroundColor = "red"
   }
 })
+var h1 = document.querySelector("h1");
+h1.addEventListener("mouseenter", function changeBackgroundColor() {
+  h1.style.backgroundColor = "red";
+})
+h1.addEventListener("mouseleave", function Changeback() {
+  h1.style.backgroundColor = "white";
+})
 
